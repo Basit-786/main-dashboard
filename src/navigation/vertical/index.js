@@ -6,10 +6,6 @@ const navigation = () => {
       badgeContent: 'new',
       badgeColor: 'error',
       children: [
-        // {
-        //   title: 'CRM',
-        //   path: '/dashboards/crm'
-        // },
         {
           title: 'Analytics',
           path: '/dashboards/analytics'
@@ -33,11 +29,7 @@ const navigation = () => {
       icon: 'mdi:message-outline',
       path: '/apps/chat'
     },
-    // {
-    //   title: 'Calendar',
-    //   icon: 'mdi:calendar-blank-outline',
-    //   path: '/apps/calendar'
-    // },
+
     {
       title: 'Invoice',
       icon: 'mdi:file-document-outline',
@@ -308,7 +300,7 @@ const navigation = () => {
           ]
         }
       ]
-    },
+    }
   ]
 }
 
