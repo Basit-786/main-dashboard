@@ -9,10 +9,6 @@ const navigation = () => {
         {
           title: 'Analytics',
           path: '/dashboards/analytics'
-        },
-        {
-          title: 'eCommerce',
-          path: '/dashboards/ecommerce'
         }
       ]
     },
@@ -206,16 +202,6 @@ const navigation = () => {
               openInNewTab: true,
               title: 'Login v1',
               path: '/pages/auth/login-v1'
-            },
-            {
-              openInNewTab: true,
-              title: 'Login v2',
-              path: '/pages/auth/login-v2'
-            },
-            {
-              openInNewTab: true,
-              title: 'Login With AppBar',
-              path: '/pages/auth/login-with-appbar'
             }
           ]
         },
@@ -226,16 +212,6 @@ const navigation = () => {
               openInNewTab: true,
               title: 'Register v1',
               path: '/pages/auth/register-v1'
-            },
-            {
-              openInNewTab: true,
-              title: 'Register v2',
-              path: '/pages/auth/register-v2'
-            },
-            {
-              openInNewTab: true,
-              title: 'Register Multi-Steps',
-              path: '/pages/auth/register-multi-steps'
             }
           ]
         },
@@ -246,11 +222,6 @@ const navigation = () => {
               openInNewTab: true,
               title: 'Verify Email v1',
               path: '/pages/auth/verify-email-v1'
-            },
-            {
-              openInNewTab: true,
-              title: 'Verify Email v2',
-              path: '/pages/auth/verify-email-v2'
             }
           ]
         },
@@ -261,11 +232,6 @@ const navigation = () => {
               openInNewTab: true,
               title: 'Forgot Password v1',
               path: '/pages/auth/forgot-password-v1'
-            },
-            {
-              openInNewTab: true,
-              title: 'Forgot Password v2',
-              path: '/pages/auth/forgot-password-v2'
             }
           ]
         },
@@ -276,11 +242,6 @@ const navigation = () => {
               openInNewTab: true,
               title: 'Reset Password v1',
               path: '/pages/auth/reset-password-v1'
-            },
-            {
-              openInNewTab: true,
-              title: 'Reset Password v2',
-              path: '/pages/auth/reset-password-v2'
             }
           ]
         },
@@ -291,11 +252,6 @@ const navigation = () => {
               openInNewTab: true,
               title: 'Two Steps v1',
               path: '/pages/auth/two-steps-v1'
-            },
-            {
-              openInNewTab: true,
-              title: 'Two Steps v2',
-              path: '/pages/auth/two-steps-v2'
             }
           ]
         }
